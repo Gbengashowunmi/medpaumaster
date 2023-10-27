@@ -1,0 +1,20 @@
+.finance-form{
+    width: 60%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+    .messag{
+        color: green;
+    }
+    .input{
+        // width: 60%;
+        margin: 1rem 0;
+    }
+}
+
+@media (max-width:900px) {
+    .finance-form{
+        width: 80%;
+    }
+    }

@@ -1,0 +1,22 @@
+.all_blogs {
+  width: 100%;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+@media (max-width: 980px) {
+  .all_blogs {
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 600px) {
+  .all_blogs {
+    width: 80%;
+    margin: auto;
+    grid-template-columns: 1fr;
+  }
+}
