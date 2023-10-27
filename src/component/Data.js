@@ -753,7 +753,8 @@ export const blog = [
   },
   {
     id: 12,
-    image: "/images/two-african-american-pharmacist-working-drugstore-hospital-pharmacy-african-healthcare_627829-3327.jpg",
+    image:
+      "/images/two-african-american-pharmacist-working-drugstore-hospital-pharmacy-african-healthcare_627829-3327.jpg",
     title:
       "The Pivotal Role Of Hospital Consumables: Ensuring Excellence In Healthcare",
     shortDescription:
@@ -764,8 +765,7 @@ export const blog = [
   {
     id: 13,
     image: "/images/ow to setup dialysis.jpg",
-    title:
-      "How to set up a Dialysis/Diagnostic center",
+    title: "How to set up a Dialysis/Diagnostic center",
     shortDescription:
       "The healthcare industry offers numerous opportunities for entrepreneurs who are passionate about making a difference in people's lives. One such venture is setting up a Dialysis/Diagnostics Center, even if you aren't a healthcare professional. While it may seem daunting, with careful planning and the right team, you can successfully establish and run a healthcare facility that provides essential services to your community.",
     date: "October 12, 2023",
@@ -774,12 +774,21 @@ export const blog = [
   {
     id: 14,
     image: "/images/TIGHT MED.jpg",
-    title:
-      "How to set up a Dialysis/Diagnostic center on a tight budget",
+    title: "How to set up a Dialysis/Diagnostic center on a tight budget",
     shortDescription:
       "Setting up a dialysis or diagnostic center on a tight budget can be a challenging endeavor, but it is possible with careful planning, resourcefulness, and a focus on cost-effective solutions. Here are some steps to help you get started",
     date: "October 19, 2023",
     link: "//medpau.hashnode.dev/how-to-set-up-a-dialysisdiagnostic-center-on-a-tight-budget",
+  },
+  {
+    id: 15,
+    image: "/images/ten things you must not say to a patient.jpg",
+    title:
+      "Ten (10) Things You Must Not Say to an Angry Patient in a Hospital Introduction:",
+    shortDescription:
+      "Dealing with angry patients in a hospital can be challenging, but it's crucial to maintain a compassionate and professional approach. What you say to a patient during their moments of frustration can significantly impact their experience. Medpau Int'l Ltd is known for excellent customer relationships and this has earned us great recommendation.",
+    date: "October 26, 2023",
+    link: "//medpau.hashnode.dev/ten-10-things-you-must-not-say-to-an-angry-patient-in-a-hospital-introduction",
   },
 ];
 
