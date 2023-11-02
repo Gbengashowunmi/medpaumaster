@@ -790,6 +790,15 @@ export const blog = [
     date: "October 26, 2023",
     link: "//medpau.hashnode.dev/ten-10-things-you-must-not-say-to-an-angry-patient-in-a-hospital-introduction",
   },
+  {
+    id: 16,
+    image: "/images/5MISTAKES.jpg",
+    title: "Five (5) mistakes to avoid when setting up a Dialysis center",
+    shortDescription:
+      "The establishment of a dialysis center is a significant step in providing life-saving treatment to patients with kidney disease. However, there are common pitfalls that can be avoided to ensure the success and quality of care in such a facility. Medpau Intl Ltd has years of experience in setting up dialysis centers across Africa, we can boldly say we possess to wealth of experience to teach the public on the dos and don'ts In setting up dialysis centers.",
+    date: "November 1, 2023",
+    link: "//medpau.hashnode.dev/five-5-mistakes-to-avoid-when-setting-up-a-dialysis-center",
+  },
 ];
 
 export const videos = [
