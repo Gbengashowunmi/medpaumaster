@@ -1,16 +1,32 @@
-.whatsapp{
-    position: relative;
-    p{
-        position: fixed;
-        z-index: 200;
-        top: 87vh;
-        right: 7%;
-        width: 5rem;
-        height: 5rem;
-        img{
-            width: 100%;
-            height: 100%;
-        }
+.whatsapp {
+  position: relative;
+  p {
+    position: fixed;
+    z-index: 200;
+    top: 87vh;
+    right: 10;
+    width: 5rem;
+    height: 5rem;
+    animation-name: zoom_in_out;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 
+    img {
+      width: 100%;
+      height: 100%;
     }
+  }
+}
+
+@keyframes zoom_in_out {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
