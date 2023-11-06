@@ -26,6 +26,7 @@ import MwnForm from "./Pages/mwn/MwnForm";
 import MenteeForm from "./Pages/mwn/MenteeForm";
 import MentorForm from "./Pages/mwn/MentorForm";
 import OurProjects from "./Pages/ourProjects/OurProjects";
+import Whatsapp from "./component/whatsappchat/Whatsapp";
 // import Mwn2 from "./Pages/mwn/Mwn2";
   
 AOS.init();
@@ -34,6 +35,7 @@ function App() {
     <div className="App">
       <ChatMuna />
       <BrowserRouter>
+      <Whatsapp/>
         {/* scroll to top icon  */}
         <ScrollToTop className="scroll_up" smooth={true} />
         {/* scroll to top of the page on new page  */}

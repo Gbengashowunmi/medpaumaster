@@ -1,0 +1,16 @@
+.whatsapp{
+    position: relative;
+    p{
+        position: fixed;
+        z-index: 200;
+        top: 87vh;
+        right: 7%;
+        width: 5rem;
+        height: 5rem;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+
+    }
+}
