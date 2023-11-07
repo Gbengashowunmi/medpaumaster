@@ -85,6 +85,12 @@ export default function HeadFoot({ children, pageTitle, description }) {
       <Helmet>
         <title>Medpau {pageTitle}</title>
         <meta name="description" content={description} />
+
+        {/* for pinterest verification */}
+        <meta
+          name="p:domain_verify"
+          content="35199488f9f5f6a0c12445fe11ed4506"
+        />
       </Helmet>
       <div
         onClick={handleToggle}
