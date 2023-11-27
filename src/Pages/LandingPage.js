@@ -151,12 +151,24 @@ export default function LandingPage() {
             data-aos-mirror="true"
             data-aos-once="false"
           >
-            <h3>Need financing?</h3> <br />
+            <h3>
+              {/* Need financing?  */}
+              Customer Support
+            </h3>
+            <br />
             <p>
-              Is your budget restricted? We offer Financing solutions for your
-              projects and equipment procurement
+              {/* Is your budget restricted? We offer Financing solutions for your
+              projects and equipment procurement. */}
+              Our dedicated support team is ready to assist you. Whether you
+              have questions, concerns, or just want to say hello, we're here to
+              make your experience exceptional.
             </p>
-            <Link to="/financial-support">
+            <Link
+              // to="/financial-support"
+              to="//api.whatsapp.com/send?phone=2349085323596&text=Hi+MedPau+International+Limited.+I+want+to+make+enquiries+on..."
+              target="blank"
+              rel="noopener noreferrer"
+            >
               <button>Reach out to us</button>
             </Link>
           </div>
