@@ -87,10 +87,10 @@ export default function HeadFoot({ children, pageTitle, description }) {
         <meta name="description" content={description} />
 
         {/* for pinterest verification */}
-        <meta
+        {/* <meta
           name="p:domain_verify"
           content="35199488f9f5f6a0c12445fe11ed4506"
-        />
+        /> */}
       </Helmet>
       <div
         onClick={handleToggle}
@@ -180,13 +180,15 @@ export default function HeadFoot({ children, pageTitle, description }) {
           <li onClick={handleOpenMwpModal}> Medpau Impact Projects(MIP)</li>
           {/* </NavLink> */}
 
-          <Button
+
+{/* healthvest disaled  */}
+          {/* <Button
             variant="contained"
             className="appointment-btn"
             onClick={handleOpenModal}
           >
             Healthvest
-          </Button>
+          </Button> */}
         </ul>
 
         {/* modal for mwn  */}
