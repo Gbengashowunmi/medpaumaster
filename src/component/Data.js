@@ -799,6 +799,16 @@ export const blog = [
     date: "November 1, 2023",
     link: "//medpau.hashnode.dev/five-5-mistakes-to-avoid-when-setting-up-a-dialysis-center",
   },
+  {
+    id: 17,
+    image: "/images/High pure water.jpg",
+    title:
+      "Upgrade Your Water Quality With Ro-Watersmart For Healthcare And Home",
+    shortDescription:
+      "At Medpau International Limited, we understand the critical importance of pure and high-quality water in healthcare settings, especially in hospitals and dialysis centers. That's why we are excited to introduce our state-of-the-art RO-WaterSmart Treatment Plant—a game-changer in water purification.",
+    date: "December 6, 2023",
+    link: "//medpau.hashnode.dev/upgrade-your-water-quality-with-ro-watersmart-for-healthcare-and-home",
+  },
 ];
 
 export const videos = [
